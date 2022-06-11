@@ -3,6 +3,7 @@ FROM virtualstaticvoid/heroku-docker-r:shiny
 ENV PORT=8080
 
 RUN R -e "install.packages('shiny')"
+RUN R -e "install.packages('shinythemes')"
 RUN R -e "install.packages('httr')"
 RUN R -e "install.packages('XML')"
 RUN R -e "install.packages('magrittr')"
