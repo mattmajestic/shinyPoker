@@ -1,0 +1,16 @@
+{
+  "name": "shinyPoker",
+  "stack": "container",
+  "description": "Shiny App focused WSOP results & prototyping solvers for probalistic efficiencies.",
+  "keywords": [
+    "r",
+    "plumber"
+  ],
+  "repository": "https://github.com/mattmajestic/shinyPoker",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
+}
