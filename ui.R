@@ -12,5 +12,7 @@ ui <- navbarPage(title = "shinyPoker",windowTitle = "shinyPoker",
   ),
   br(),
   br(),
-  plotOutput("qRcode")
+  column(12,align = "center",
+  plotOutput("qrcode", width = "100%", height = "400px")
+  )
 )
