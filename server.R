@@ -10,4 +10,7 @@ server <- function(input,output,session){
       html_table(fill=T)
     datatable(rv$wsop_data)
   })
+  output$qRcode <- renderPlot({
+    qrcode_gen(paste0(wsop_url,input$wsop_id))
+  })
 }

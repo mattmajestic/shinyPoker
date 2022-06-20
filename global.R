@@ -9,6 +9,8 @@ library(DT)
 library(jsonlite)
 library(shiny)
 library(shinythemes)
+library(qrcode)
 
 wsop_url <- "https://www.wsop.com/players/profile/?playerid="
-steins <- "315691"
+ids <- c(315691,271,267,273)
+names <- c("Ben Steinwachs","Phil Hellmuth","Dnegs","Phil Ivey")

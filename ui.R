@@ -5,9 +5,12 @@ ui <- navbarPage(title = "shinyPoker",windowTitle = "shinyPoker",
   br(),
   br(),
   column(4,
-  numericInput("wsop_id","WSOP ID",value = 315691)
+  numericInput("wsop_id","WSOP ID",value = ids[1])
   ),
   column(8,
   DTOutput("wsop_dt")
-  )
+  ),
+  br(),
+  br(),
+  plotOutput("qRcode")
 )
